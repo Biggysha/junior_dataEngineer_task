@@ -38,6 +38,7 @@ class DataValidator:
         # Count normal vs special characters
         normal_chars = len(re.findall(r'[a-zA-Z0-9\s]', text))
         total_chars = len(text)
+        alphanumeric_chars = len(re.findall(r'[a-zA-Z0-9\s]', text))
         
         if total_chars == 0:
             return False
