@@ -116,6 +116,5 @@ if __name__ == '__main__':
         logging.error(str(e))
         exit(1)
 
-# Example usage:
-# python pipeline.py --dataset_name="gsm8k" --split="train" --user=root --password=root --host=localhost --port=5432 --db=gsm8k --table_name=gsm8k_train
+
 #python pipeline.py --dataset_name=openai/gsm8k --split=train --subset=main --user=root --password=root --host=localhost --port=5432 --db=gsm8k --table_name=gsm8k_train
