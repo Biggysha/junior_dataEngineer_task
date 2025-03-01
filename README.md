@@ -9,3 +9,12 @@ docker compose up -d
 terraform init
 terraform plan
 terraform apply
+
+#sample dataset 
+#i used the openai text dataset that is destined for to mathematics Q&A
+from datasets import load_dataset
+
+ds = load_dataset("openai/gsm8k", "main")
+
+#pipeline architecture
+
